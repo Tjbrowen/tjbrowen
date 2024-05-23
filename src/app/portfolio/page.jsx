@@ -14,7 +14,7 @@ const items = [
     link: "https://www.bpsglobal.biz",
   },
   {
-    id: 2,
+    id: 1,
     color: "from-blue-300 to-violet-300",
     title: "4ward Security",
     desc: " Build on: Wordpress. Web Development, Design and Creative Design.",
@@ -28,7 +28,7 @@ const PortfolioPage = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-65%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-66%"]);
 
   return (
     <motion.div
