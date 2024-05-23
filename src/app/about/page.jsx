@@ -32,7 +32,7 @@ const AboutPage = () => {
   
   {/* BIOGRAPHY CONTAINER */}
   <div className="flex flex-col gap-12 justify-center">
-    <hi className="font-bold text-2xl">BIOGRAPHY </hi>
+    <h1 className="font-bold text-2xl">BIOGRAPHY </h1>
 
      {/* BIOGRAPHY DEC*/}
     <p className="text-lg">
