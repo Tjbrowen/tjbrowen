@@ -18,7 +18,7 @@ const items = [
     color: "from-blue-300 to-violet-300",
     title: "4ward Security",
     desc: " Build on: Wordpress. Web Development, Design and Creative Design.",
-    img: " https://i.ibb.co/jbx2J9c/Project2.png",
+    img: " https://i.ibb.co/NZ70fkT/4wardsecurity.png",
     link: "https://4wardsecurity.co.za",
   },
  
