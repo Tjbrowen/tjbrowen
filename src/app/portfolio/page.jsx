@@ -18,11 +18,11 @@ const items = [
     color: "from-blue-300 to-violet-300",
     title: "4ward Security",
     desc: " Build on: Wordpress. Web Development, Design and Creative Design.",
-    img: " https://i.postimg.cc/xdMzcq7z/4ward.jpg",
+    img: "https://i.postimg.cc/xdMzcq7z/4ward.jpg",
     link: "https://4wardsecurity.co.za",
   },
- 
 ];
+
 
 const PortfolioPage = () => {
   const ref = useRef();
