@@ -65,7 +65,7 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
+          className="h-1/7 lg:h-full lg:w-1/7 bg-red-50 rounded-xl text-xl flex flex-col gap-4 justify-center lg:p-24 sm:p-12"
         >
           <span>Tjbrowen,</span>
           <textarea
@@ -78,7 +78,7 @@ const ContactPage = () => {
             name="user_email"
             type="text"
             className="bg-transparent border-b-2 border-b-black outline-none"
-            style={{ width: '100%' }}
+            
           />
           <span>Regards</span>
           <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
