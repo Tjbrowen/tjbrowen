@@ -10,7 +10,7 @@ const items = [
     color: "from-red-300 to-blue-300",
     title: "Balaodi",
     desc: " Build on: PHP. Web Development, Design and Creative Design",
-    img: "https://i.ibb.co/rtgD7h1/Project1.jpg",
+    img: "https://i.postimg.cc/xdMzcq7z/4ward.jpg",
     link: "https://www.bpsglobal.biz",
   },
   {
