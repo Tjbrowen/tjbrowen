@@ -2,7 +2,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 const items = [
   {
@@ -25,6 +25,10 @@ const items = [
 
 
 const PortfolioPage = () => {
+
+  useEffect(() => {
+    document.body.style.overflowX = 'hidden';
+  }, []);
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });

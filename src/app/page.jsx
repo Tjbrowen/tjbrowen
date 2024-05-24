@@ -2,9 +2,14 @@
 "use client"
 import Image from "next/image";
 import {motion} from "framer-motion"
+import { useEffect } from "react";
 
 
 const Homepage = () => {
+
+  useEffect(() => {
+    document.body.style.overflowX = 'hidden';
+  }, []);
   return (
     <motion.div
      className="h-full overflow-scroll" 

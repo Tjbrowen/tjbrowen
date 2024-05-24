@@ -1,9 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactPage = () => {
+
+  useEffect(() => {
+    document.body.style.overflowX = 'hidden';
+  }, []);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
   const text = "Say Hello";

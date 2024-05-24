@@ -1,9 +1,13 @@
 "use client"
 import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 const AboutPage = () => {
+
+  useEffect(() => {
+    document.body.style.overflowX = 'hidden';
+  }, []);
 
   const containerRef = useRef ()
 
