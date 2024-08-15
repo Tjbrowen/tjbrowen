@@ -284,7 +284,7 @@ m1163 -217 c32 -17 67 -106 67 -170 0 -62 -9 -75 -40 -58 -21 11 -51 70 -96
 
           {/* job date */}
        <div className="text-red-400 text-sm font-semibold">
-         2019 - 2022</div>
+         2018 - 2022</div>
          {/* company name */}
          <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
          The Curve Behind Trading</div>
