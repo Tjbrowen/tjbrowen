@@ -211,7 +211,7 @@ m1163 -217 c32 -17 67 -106 67 -170 0 -62 -9 -75 -40 -58 -21 11 -51 70 -96
               {/* left */}
               <div className="w-1/3">
                  {/* job title */}
-                 <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Junior Web Developer</div>
+                 <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Software Developer</div>
 
                  
                  {/* job des */}
@@ -263,8 +263,8 @@ m1163 -217 c32 -17 67 -106 67 -170 0 -62 -9 -75 -40 -58 -21 11 -51 70 -96
              {/* right */}
              <div className="w-1/3 ">
               {/* job title */}
-              <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Project Manager Assistant
-              /Financial Clerk</div>
+              <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">Assistant Project Manager 
+              </div>
 
                  
              {/* job des */}
