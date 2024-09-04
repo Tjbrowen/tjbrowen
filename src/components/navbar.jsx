@@ -90,15 +90,10 @@ const Navbar = () =>{
                 <Link href="https://github.com/Tjbrowen">
                 <Image src="/github.png" alt="" width={24} height={24}/>
                 </Link>
-                <Link href="https://www.instagram.com/brownthabo/">
-                <Image src="/instagram.png" alt="" width={24} height={24}/>
+                <Link href="https://www.linkedin.com/in/thabo-browen-067821139/">
+                <Image src="/linkedin.png" alt="" width={24} height={24}/>
                 </Link>
-                <Link href="https://www.facebook.com/thabo.brown.9">
-                <Image src="/facebook.png" alt="" width={24} height={24}/>
-                </Link>
-                <Link href="https://twitter.com/bourlotoes">
-                <Image src="/xx.png" alt="" width={24} height={24}/>
-                </Link>
+                
               </div>
              {/* RESPONSIVE MENU*/}
              
